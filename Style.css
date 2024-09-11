@@ -1,0 +1,167 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.topTodo{
+    font-size: 1.2rem;
+    background-color: rgb(33, 33, 114);
+    height: 100px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 460px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(240, 236, 236, 0.642);
+    padding-bottom: 4pc;
+    border-radius: 20px;
+    width: 60%;
+}
+
+.caption h1 {
+    font-size: 2.4rem;
+    font-family: system-ui;
+    color: wheat;
+    text-shadow: 0px 0px 12px #6633998c;
+}
+
+.contain {
+    position: absolute;
+    top: 80px;
+    width: 40%;
+    padding: 15px 0px;
+    background: #ffffffc9;
+    box-shadow: 0px 0px 12px #80808094;
+    border-radius: 8px;
+}
+
+.get_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#getData {
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: #3d3333;
+    font-weight: 400;
+    border-radius: 8px;
+    transition-property: border-bottom;
+    font-size: 1.2rem;
+}
+
+
+
+._btn {
+    padding: 8px 38px;
+    font-size: 1rem;
+    background: #4a46469e;
+    border: moccasin;
+    border-radius: 8px;
+    color: rgb(198, 191, 191);
+    outline: none;
+}
+
+._btn:active {
+    background: #9b7b7bd2;
+    padding: 7px 37px;
+}
+
+.getResult {
+    background-color: #fffafadb;
+    width: 64%;
+    border-radius: 8px;
+    padding: 15px 30px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3pc;
+}
+
+h4 {
+    text-align: center;
+}
+
+.inputdata_saverHeadinr {
+    border: 3px solid;
+    padding: 5px;
+    color: rgb(192, 84, 84);
+    font-weight: 800;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: rgb(162, 176, 171);
+    
+    
+}
+
+
+
+.getItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #d3e020c2;
+    margin-top: 12px;
+    padding: 7px 4px;
+    color: rgb(29, 23, 23);
+    box-shadow: 0px 0px 10px rgb(162, 16, 16);
+    border-radius: 7px;
+    width: 100%;
+
+}
+
+
+
+#edit {
+    padding: 5px 45px;
+    background:rgb(96, 175, 96);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#close {
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    background: #be5050d9;
+    font-weight: 600;
+}
+
+#inputdata {
+    margin: 0;
+    color: red;
+}
+
